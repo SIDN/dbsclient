@@ -1,10 +1,11 @@
 # dbsclient
 A small Java client application to connect to DBS.
 
+## Background information
 * https://www.sidn.nl/a/sidn-services/domain-name-surveillance-service
 * http://maven.apache.org/
 
-
+## Install:
     mvn clean compile assembly:single
     java -jar dbsRestClient-1.0.null-jar-with-dependencies.jar
 
