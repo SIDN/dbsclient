@@ -66,7 +66,7 @@ import nl.sidn.dbsrestclient.elements.RestcallFailedException;
  */
 public class DbsRestClient extends JFrame implements ActionListener {
 	private static final long serialVersionUID = 1L;
-	private static final String DEFAULT_DBS_URL = "http://dbs.domain-registry.nl/rest/results";
+	private static final String DEFAULT_DBS_URL = "https://dbs.domain-registry.nl/rest/results";
 	private static final String[] COLUMNNAMES = {"Domain name", "Registration date", "Modification date", "Detection date", "Status", "Keyword"};
 	
 	//GUI components
