@@ -1,6 +1,8 @@
 # dbsclient
 A small Java client application to connect to DBS.
 
+This is an Eclipse-project that reuires the Maven plugin.
+
 ## Background information
 * https://www.sidn.nl/a/sidn-services/domain-name-surveillance-service
 * http://maven.apache.org/
