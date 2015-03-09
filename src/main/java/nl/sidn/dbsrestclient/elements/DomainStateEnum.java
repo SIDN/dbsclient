@@ -34,6 +34,7 @@ public enum DomainStateEnum {
 	ACTIVE,
 	INACTIVE,
 	EXCLUDED,
+	FREE,
 	PENDINGCREATE,
 	QUARANTINED,
 	UNKNOWN,

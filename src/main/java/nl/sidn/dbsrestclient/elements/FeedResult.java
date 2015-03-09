@@ -65,6 +65,14 @@ public class FeedResult {
 	//The keyword which triggered this result.
 	@XmlElement(name="keyword")
 	private String keyword;
+	
+	//The name of the registrant of this domain name
+	@XmlElement(name="registrant")
+	private String registrant;
+
+	//The email address of the administrative contact of this domain name. 
+	@XmlElement(name="admin-c")
+	private String adminc;
 
 	public String getDomainName() {
 		return domainName;
@@ -92,5 +100,13 @@ public class FeedResult {
 
 	public void setKeyword(String keyword) {
 		this.keyword = keyword;
+	}
+
+	public String getRegistrant() {
+		return registrant;
+	}
+
+	public String getAdminc() {
+		return adminc;
 	}
 }
